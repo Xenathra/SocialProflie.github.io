@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Profile</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Inter;
+      }
+
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+      body {
+        background-color: #141414;
+      }
+
+      .photo {
+        padding: 2.5rem 1rem 0rem 1rem;
+      }
+
+      .btn {
+        background-color: #333333;
+        width: 80%;
+      }
+
+      .button {
+        padding-bottom: 1rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .btn:hover {
+        background-color: #333333;
+      }
+
+      .card-title {
+        margin-top: 1rem;
+      }
+
+      .card {
+        height: 33rem !important;
+        background-color: #1f1f1f;
+      }
+
+      .card-title,
+      p {
+        color: white;
+      }
+
+      h6 {
+        color: #c4ea55;
+        font-size: smaller;
+        padding-bottom: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card position-absolute top-50 start-50 translate-middle rounded-4" style="width: 20rem; height: 35rem">
+        <div class="photo d-flex justify-content-center">
+          <img src="zidan.jpg" class="rounded-circle center" width="30%" alt="..." />
+        </div>
+        <h5 class="card-title d-flex justify-content-center">Adrian Zidan</h5>
+        <h6 class="d-flex justify-content-center">Jakarta, Indonesia</h6>
+        <p class="d-flex justify-content-center fw-lighter">"Front-End Developer"</p>
+        <div class="button d-flex justify-content-center">
+          <button type="button" class="btn rounded-3"><a href="https://github.com/Xenathra"> GitHub</a></button>
+        </div>
+        <div class="button d-flex justify-content-center">
+          <button type="button" class="btn rounded-3"><a href="https://www.frontendmentor.io/profile/Xenathra">FrontEnd Mentor</a></button>
+        </div>
+        <div class="button d-flex justify-content-center">
+          <button type="button" class="btn rounded-3"><a href="#"> LinkedIn</a></button>
+        </div>
+        <div class="button d-flex justify-content-center">
+          <button type="button" class="btn rounded-3"><a href="#"> Twitter</a></button>
+        </div>
+        <div class="button d-flex justify-content-center">
+          <button type="button" class="btn rounded-3"><a href="https://www.Instagram.com/adrianzidan24"> Instagram</a></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
